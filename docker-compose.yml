@@ -1,0 +1,7 @@
+version: "3"
+services:
+  limsh:
+    build: ./
+    restart: always
+    ports:
+      - "8007:3000"
